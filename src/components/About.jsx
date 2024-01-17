@@ -64,18 +64,8 @@ const About = () => {
               </div>
             ))}
           </div>
-          {/* <div className='mt-5 flex flex-wrap gap-8'>
-            {services.map((service, index) => (
-            <ServiceList key={service.title} index = {index} {...service} />
-            ))}
-          </div> */}
         </motion.div>
       </div>
-      {/* <div className='mt-9 flex max-w-3xl leading-5 '>
-        <p className='font-bold italic  text-secondary text-[18px]'>
-          
-        </p>
-      </div> */}
     </section>
   );
 };

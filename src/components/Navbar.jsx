@@ -123,8 +123,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// onClick{()=>{
-//   setActive('');
-//   window.scrollTo(0,0);
-// }}
