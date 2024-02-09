@@ -137,15 +137,15 @@ const projects = [
       "Website created using React JS, Tailwind CSS, and Vite. It is a personal portfolio website that showcases my skills and projects.",
     tags: [{
         name: "React JS",
-        color: "#e11d48",
+        color: "text-rose-600",
       },
       {
         name: "Tailwind CSS",
-        color: "#2563eb",
+        color: "text-sky-600",
       },
       {
         name: "Vite",
-        color: "#fdf4ff",
+        color: "text-green-100",
       }
     ],
     image: website,
@@ -158,7 +158,7 @@ const projects = [
     tags: [
       {
         name: "C++",
-        color: "#db2777",
+        color: "text-fuchsia-400",
       } 
     ],
     image: chat,
