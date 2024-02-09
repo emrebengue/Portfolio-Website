@@ -12,6 +12,8 @@ import {
   sql,
   cpp,
   burp,
+  website,
+  chat,
 } from "../assets";
 
 export const navLinks = [
@@ -27,10 +29,10 @@ export const navLinks = [
     id: "#work",
     title: "Work",
   },
-  // {
-  //   id: "#projects",
-  //   title: "Projects",
-  // },
+  {
+    id: "#projects",
+    title: "Projects",
+  },
 ];
 
 const heroText = [
@@ -128,28 +130,40 @@ const experiences = [
   },
 ];
 
-// const projects = [
-//   {
-//     name: "Project Name",
-//     description:
-//       "Project Description",
-//     tags: [
-//       {
-//         name: "react",
-//         color: "color",
-//       },
-//       {
-//         name: "sqlite",
-//         color: "color",
-//       },
-//       {
-//         name: "tailwind",
-//         color: "color",
-//       },
-//     ],
-//     image: img,
-//     source_code_link: "https://github.com/",
-//   }
-// ];
+const projects = [
+  {
+    name: "Portfolio Website",
+    description:
+      "Website created using React JS, Tailwind CSS, and Vite. It is a personal portfolio website that showcases my skills and projects.",
+    tags: [{
+        name: "React JS",
+        color: "#e11d48",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "#2563eb",
+      },
+      {
+        name: "Vite",
+        color: "#fdf4ff",
+      }
+    ],
+    image: website,
+    link: "https://github.com/emrebengue/Portfolio-Website",
+  },
+  {
+    name: "Client-Server_TCP_Chat",
+    description:
+      "Basic client-server TCP chat application created using C++ language. It allows users to communicate with each other using TCP sockets.",
+    tags: [
+      {
+        name: "C++",
+        color: "#db2777",
+      } 
+    ],
+    image: chat,
+    link: "https://github.com/emrebengue/Client-Server_TCP_Chat",
+  },
+ ];
 
-export { technologies, experiences, heroText };
+export { technologies, experiences, heroText, projects };

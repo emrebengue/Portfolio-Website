@@ -61,14 +61,13 @@ const Project = () => {
         variants={textVariant()}
         className="flex flex-col justify-center items-center mt-1"
       >
-        <h2 className={styles.sectionHeadText}>Personal Projects</h2>
+        <h2 className={styles.HeadText}>Personal Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          {/* brief description */}
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7 justify-center items-center">
