@@ -24,12 +24,14 @@ import java from "./tech/java.png";
 import sql from "./tech/sql.png";
 import cpp from "./tech/cpp.png";
 import burp from "./tech/burpsuite.png";
+import docker from "./tech/docker.png";
 
 //PROJECTS
 import website from "./website.png"
 import chat from "./chat_screenshot.png"
 
 export {
+  docker,
   burp,
   cpp,
   sql,

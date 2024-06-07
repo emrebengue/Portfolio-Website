@@ -38,7 +38,7 @@ const Hero = () => {
                       className={`${charClass} font-mono sm:text-lg  md:text-3xl lg:text-5xl`}
                       initial="hidden"
                       animate="show"
-                      variants={fadeIn("", "", index * 1.8  + charIndex * 0.07, 0)}
+                      variants={fadeIn("", "", index * 1.4 + charIndex * 0.05, 0)}
                     >
                       {char}
                     </motion.span>

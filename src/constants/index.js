@@ -14,6 +14,7 @@ import {
   burp,
   website,
   chat,
+  docker,
 } from "../assets";
 
 export const navLinks = [
@@ -90,6 +91,11 @@ const technologies = [
     name: "sql",
     icon: sql,
     id: "database",
+  },
+  {
+    name: "docker",
+    icon: docker,
+    id: "docker",
   },
   {
     name: "cpp",

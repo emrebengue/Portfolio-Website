@@ -16,10 +16,10 @@ const Ball = ({ icon }) => {
 
   return (
     <Float
-      speed={1}
+      speed={3}
       rotationIntensity={1}
       floatIntensity={2}
-      // floatingRange={[-0.2, 0.2]}
+      floatingRange={[-0.15, 0.15]}
     >
       <ambientLight intensity={0.6} />
       <directionalLight position={[-1, -3, 2]} />
@@ -45,7 +45,7 @@ const Ball = ({ icon }) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas resize={{ scroll: false }} rameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball icon={icon} />

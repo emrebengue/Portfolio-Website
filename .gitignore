@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 *.config.js
 *.cjs
-
+package-lock.json

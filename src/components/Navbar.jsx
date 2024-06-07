@@ -15,7 +15,7 @@ const Navbar = () => {
     <motion.nav
       initial="hidden"
       animate="show"
-      variants={fadeIn("", "spring", 5, 0.8)}
+      variants={fadeIn("", "spring", 3.8, 0.8)}
       className={`${styles.paddingX} w-full flex 
     items-center py-4 fixed top-0 z-20 bg-primary`}
     >
@@ -53,7 +53,7 @@ const Navbar = () => {
               setClick("Resume");
             }}
           >
-            <a href="./EMREBENGU_resume.pdf" target="_blank">
+            <a href="./EMREBENGU_resume.pdf" target="_blank"> 
               Resume
             </a>
           </li>
