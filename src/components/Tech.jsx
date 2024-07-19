@@ -1,3 +1,4 @@
+import React from "react";
 import { BallCanvas } from "./index";
 import { SectionWrapper } from "../wrapper";
 import { technologies } from "../constants";

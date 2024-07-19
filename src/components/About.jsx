@@ -1,4 +1,4 @@
-import { React } from "react";
+import React from "react";
 
 import { motion } from "framer-motion";
 import { styles } from "../styles";
@@ -23,7 +23,7 @@ const About = () => {
           >
             I'm currently in my fourth year at{" "}
             <span className="font-bold">
-              <a href="#  " target="_blank">
+              <a href="https://www.uottawa.ca/en" target="_blank">
                 University of Ottawa
               </a>
             </span>

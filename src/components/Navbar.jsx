@@ -53,7 +53,7 @@ const Navbar = () => {
               setClick("Resume");
             }}
           >
-            <a href="./EMREBENGU_resume.pdf" target="_blank"> 
+            <a href="../../resume/EMREBENGU_resume.pdf" target="_blank"> 
               Resume
             </a>
           </li>
@@ -110,7 +110,7 @@ const Navbar = () => {
                   setClick("Resume");
                 }}
               >
-                <a href="./EMREBENGU_resume.pdf" target="_blank">
+                <a href="../../resume/EMREBENGU_resume.pdf" target="_blank">
                   Resume
                 </a>
               </li>
