@@ -25,10 +25,13 @@ import sql from "./tech/sql.png";
 import cpp from "./tech/cpp.png";
 import burp from "./tech/burpsuite.png";
 import docker from "./tech/docker.png";
+import c from "./tech/c.png"
 
 //PROJECTS
 import website from "./website.png"
 import chat from "./chat_screenshot.png"
+import binary_tree from "./binary-tree.png"
+import monitor from "./system-monitor.png"
 
 export {
   docker,
@@ -52,4 +55,7 @@ export {
   linkedin,
   chat,
   website,
+  binary_tree,
+  monitor,
+  c,
 };

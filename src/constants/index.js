@@ -15,6 +15,9 @@ import {
   website,
   chat,
   docker,
+  binary_tree,
+  monitor,
+  c,
 } from "../assets";
 
 export const navLinks = [
@@ -98,6 +101,11 @@ const technologies = [
     id: "docker",
   },
   {
+    name: "c",
+    icon: c,
+    id: "c",
+  },
+  {
     name: "cpp",
     icon: cpp,
     id: "cplusplus",
@@ -169,6 +177,40 @@ const projects = [
     ],
     image: chat,
     link: "https://github.com/emrebengue/Client-Server_TCP_Chat",
+  },
+  {
+    name: "Binary Tree in C",
+    description:
+      "A C-based project that implements a binary tree data structure, featuring node creation, parent-child relationships, and leaf node identification, aimed at efficient data organization and manipulation.",
+    tags: [
+      {
+        name: "C",
+        color: "text-fuchsia-400",
+      } 
+    ],
+    image: binary_tree,
+    link: "https://github.com/emrebengue/Tree",
+  },
+   {
+    name: "System Monitoring",
+    description:
+      "Encrypted System Monitor is a comprehensive tool designed to track and log CPU and memory usage in real-time, featuring an integrated web server for secure data access and visualization. The project utilizes the Poco library for efficient and robust implementation.",
+    tags: [
+      {
+        name: "C++",
+        color: "text-fuchsia-400",
+      },
+      {
+        name: "Bash",
+        color: "text-green-600",
+      },
+      {
+        name: "Makefile",
+        color: "text-orange-400",
+      }
+    ],
+    image: monitor,
+    link: "https://github.com/emrebengue/System-Monitoring",
   },
  ];
 
