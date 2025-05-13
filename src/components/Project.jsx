@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-import { styles } from "../styles";
+// import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../wrapper";
 import { projects } from "../constants";
@@ -62,7 +62,7 @@ const Project = () => {
         variants={textVariant()}
         className="flex flex-col justify-center items-center mt-1"
       >
-        <h2 className={styles.HeadText}>Personal Projects</h2>
+        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">Personal Projects</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p

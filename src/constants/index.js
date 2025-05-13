@@ -8,16 +8,15 @@ import {
   nodejs,
   git,
   python,
-  java,
-  sql,
   cpp,
   burp,
   website,
-  chat,
   docker,
-  binary_tree,
   monitor,
   c,
+  rust,
+  event_scraper,
+  fastapi,
 } from "../assets";
 
 export const navLinks = [
@@ -40,20 +39,22 @@ export const navLinks = [
 ];
 
 const heroText = [
-  [`<p> Hi my name is Emre <br>`],
-  [" I am a passionate software developer <p>"],
+  ["Hi, I'm Emre!"],
+  ["I am a &Software Engineer& and ^Rust^ enjoyer"],
+  ["PS: Also an expert at *(creating)* bugs"]
 ];
+
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-    id: "html5",
+    name: "Rust",
+    icon: rust,
+    id: "rust",
   },
   {
-    name: "CSS 3",
-    icon: css,
-    id: "css3",
+    name: "docker",
+    icon: docker,
+    id: "docker",
   },
   {
     name: "JavaScript",
@@ -66,14 +67,14 @@ const technologies = [
     id: "py",
   },
   {
+    name: "FastAPI",
+    icon: fastapi,
+    id: "fastapi",
+  },
+  {
     name: "React JS",
     icon: reactjs,
     id: "react",
-  },
-  {
-    name: "Java",
-    icon: java,
-    id: "jdk",
   },
   {
     name: "Tailwind CSS",
@@ -86,34 +87,34 @@ const technologies = [
     id: "node",
   },
   {
+    name: "C",
+    icon: c,
+    id: "c",
+  },
+  {
+    name: "CPP",
+    icon: cpp,
+    id: "cplusplus",
+  },
+  {
     name: "git",
     icon: git,
     id: "hub",
   },
   {
-    name: "sql",
-    icon: sql,
-    id: "database",
-  },
-  {
-    name: "docker",
-    icon: docker,
-    id: "docker",
-  },
-  {
-    name: "c",
-    icon: c,
-    id: "c",
-  },
-  {
-    name: "cpp",
-    icon: cpp,
-    id: "cplusplus",
-  },
-  {
     name: "Burpsuite",
     icon: burp,
     id: "burpsuite",
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+    id: "html5",
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+    id: "css3",
   },
 ];
 
@@ -123,7 +124,7 @@ const experiences = [
     company_name: "Department of National Defence Canada",
     icon: goc,
     iconBg: "#383E56",
-    date: "September 2023 - Present",
+    date: "September 2023 - August 2024",
     points: [
       "Led the migration of a map initially created in Microsoft Visio to Qualiware, leveraging the DNDAF Framework to enhance eﬃciency and accuracy.",
       "Worked on developing a survey website using JavaScript, designed to retrieve data from multiple Excel spreadsheets; implemented features for storing respondent data in an SQLite database.",
@@ -166,32 +167,31 @@ const projects = [
     link: "https://github.com/emrebengue/Portfolio-Website",
   },
   {
-    name: "Client-Server_TCP_Chat",
+    name: "Event Scraper",
     description:
-      "Basic client-server TCP chat application created using C++ language. It allows users to communicate with each other using TCP sockets.",
+      "Web-based event extractor using AWS Textract, S3, and Boto3 for document processing and storage; integrated Selenium for web scraping, Flask/FastAPI for backend APIs, and LLMs for structured data extraction.",
     tags: [
       {
-        name: "C++",
-        color: "text-fuchsia-400",
-      } 
+        name: "Python",
+        color: "text-yellow-300",
+      },
+      {
+        name: "AWS",
+        color: "text-orange-500",
+      },
+      {
+        name: "FastAPI",
+        color: "text-emerald-600",
+      },
+      {
+        name: "Selenium",
+        color: "text-sky-600"
+      }
     ],
-    image: chat,
-    link: "https://github.com/emrebengue/Client-Server_TCP_Chat",
+    image: event_scraper,
+    link: "https://github.com/emrebengue/Event_Scraper",
   },
   {
-    name: "Binary Tree in C",
-    description:
-      "A C-based project that implements a binary tree data structure, featuring node creation, parent-child relationships, and leaf node identification, aimed at efficient data organization and manipulation.",
-    tags: [
-      {
-        name: "C",
-        color: "text-fuchsia-400",
-      } 
-    ],
-    image: binary_tree,
-    link: "https://github.com/emrebengue/Tree",
-  },
-   {
     name: "System Monitoring",
     description:
       "Encrypted System Monitor is a comprehensive tool designed to track and log CPU and memory usage in real-time, featuring an integrated web server for secure data access and visualization. The project utilizes the Poco library for efficient and robust implementation.",

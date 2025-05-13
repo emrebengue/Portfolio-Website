@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 
 import { motion } from "framer-motion";
-import { styles } from "../styles";
+// import { styles } from "../styles";
 //import { services } from "../constants/index";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../wrapper";
@@ -16,30 +16,29 @@ const About = () => {
     <section>
       <div className="xl:flex xl:justify-between xl:items-start">
         <motion.div className="xl:w-6/12 w-full" variants={textVariant()}>
-          <p className={styles.HeadText}>Introduction.</p>
+          <p className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]">About me.</p>
           <motion.p
             variants={fadeIn("down", "", 0.5, 1)}
-            className={styles.sectionAbout}
+            className="mt-4 text-secondary text-[24px] max-w-3xl leading-9"
           >
-            I'm currently in my fourth year at{" "}
+            I have been interested in computers and how they work since childhood. 
+            I have been coding for the past six years, and it's become something I truly enjoy. 
+            Over time, I have explored web development, low-level programming,
+            and done dozens of Hack The Box challenges. This interest has grown into something I do almost every day.
+            I recently graduated from the {" "} 
             <span className="font-bold">
               <a href="https://www.uottawa.ca/en" target="_blank">
                 University of Ottawa
               </a>
             </span>
-            , and I am truly passionate about coding, cybersecurity, and Linux
-            systems. I first delved into coding during my freshman year, and my
-            aim is not just to learn but to thrive in this field. As a quick
-            learner and a team player, I'm always up for new challenges. At this
-            moment, I'm actively seeking opportunities to continue honing my
-            skills in software engineering and cybersecurity.
+            , and I am now focused on improving my skills and looking for new opportunities in tech.
           </motion.p>
         </motion.div>
         <motion.div
           className="xl:w-6/12 w-full xl:mt-0 mt-10"
           variants={textVariant()}
         >
-          <p className={styles.Techtext}>
+          <p className="text-white font-black md:text-[41-px] sm:text-[36px] xs:text-[26px] text-[20px] inset-x-0 top-0 pt-4">
             Technologies that I have been using lately&nbsp;:
           </p>
           <div

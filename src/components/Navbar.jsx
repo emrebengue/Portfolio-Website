@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { styles } from "../styles";
+// import { styles } from "../styles"; 
 import { navLinks } from "../constants";
 import { linkedin, menu, close, github } from "../assets";
 
@@ -16,7 +16,7 @@ const Navbar = () => {
       initial="hidden"
       animate="show"
       variants={fadeIn("", "spring", 3.8, 0.8)}
-      className={`${styles.paddingX} w-full flex 
+      className={`sm:px-16 px-6 w-full flex 
     items-center py-4 fixed top-0 z-20 bg-primary`}
     >
       <div
@@ -25,10 +25,10 @@ const Navbar = () => {
       >
         <div className={`${!toggle ? "flex" : "hidden"} flex flex-row gap-10`}>
           <a href="https://www.linkedin.com/in/emre-bengu" target="_blank">
-            <img src={linkedin} alt="LinkedIn" className={styles.navLinks} />
+            <img src={linkedin} alt="LinkedIn" className="w-9 h-9 object-contain" />
           </a>
           <a href="https://github.com/emrebengue" target="_blank">
-            <img src={github} alt="LinkedIn" className={styles.navLinks} />
+            <img src={github} alt="LinkedIn" className="w-9 h-9 object-contain" />
           </a>
         </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">

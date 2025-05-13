@@ -20,25 +20,26 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import python from "./tech/python.png";
-import java from "./tech/java.png";
-import sql from "./tech/sql.png";
+// import java from "./tech/java.png";
+// import sql from "./tech/sql.png";
 import cpp from "./tech/cpp.png";
 import burp from "./tech/burpsuite.png";
 import docker from "./tech/docker.png";
 import c from "./tech/c.png"
+import rust from "./tech/rust.png"
+import fastapi from"./tech/fastapi.png"
 
 //PROJECTS
 import website from "./website.png"
-import chat from "./chat_screenshot.png"
-import binary_tree from "./binary-tree.png"
+// import chat from "./chat_screenshot.png"
+// import binary_tree from "./binary-tree.png"
 import monitor from "./system-monitor.png"
+import event_scraper from "./event_scraper.png"
 
 export {
   docker,
   burp,
   cpp,
-  sql,
-  java,
   python,
   goc,
   logo,
@@ -53,9 +54,10 @@ export {
   reactjs,
   tailwind,
   linkedin,
-  chat,
   website,
-  binary_tree,
   monitor,
   c,
+  rust,
+  event_scraper,
+  fastapi,
 };
