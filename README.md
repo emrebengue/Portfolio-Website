@@ -11,6 +11,6 @@ https://emrebengu.dev/
 
 - To install all the dependencies and packages:
 
-  4)     npm install (React 19+ or Tailwind 4+ might break)
+  4)     npm install (React v19+ or Tailwind v4+ might break)
   5)     npm run dev
     
