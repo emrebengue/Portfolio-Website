@@ -40,8 +40,8 @@ export const navLinks = [
 
 const heroText = [
   ["Hi, I'm Emre!"],
-  ["I am a &Software Engineer& and ^Rust^ enjoyer"],
-  ["PS: Also an expert at *(creating)* bugs"]
+  ["^Rust^ enjoyer and &bug& architect"],
+  ["I write code that compiles *eventually*"]
 ];
 
 
