@@ -7,9 +7,12 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Fresh dependencies
+# Dependencies
 node_modules
 package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store
 
 dist
 dist-ssr
