@@ -40,7 +40,7 @@ import supabase from "./tech/supabase.png"
 import website from "./website.png"
 // import chat from "./chat_screenshot.png"
 // import binary_tree from "./binary-tree.png"
-import monitor from "./system-monitor.png"
+// import monitor from "./system-monitor.png"
 import event_scraper from "./event_scraper.png"
 
 export {
@@ -62,7 +62,7 @@ export {
   tailwind,
   linkedin,
   website,
-  monitor,
+  // monitor,
   c,
   rust,
   event_scraper,
