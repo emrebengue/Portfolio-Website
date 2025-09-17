@@ -1,15 +1,15 @@
 import {
   goc,
-  javascript,
-  html,
-  css,
-  reactjs,
+  // javascript,
+  // html,
+  // css,
+  // reactjs,
   tailwind,
-  nodejs,
+  // nodejs,
   git,
   python,
-  cpp,
-  burp,
+  // cpp,
+  // burp,
   website,
   docker,
   monitor,
@@ -17,6 +17,12 @@ import {
   rust,
   event_scraper,
   fastapi,
+  nextjs,
+  aws,
+  terraform,
+  vercel,
+  railway,
+  supabase,
 } from "../assets";
 
 export const navLinks = [
@@ -40,8 +46,8 @@ export const navLinks = [
 
 const heroText = [
   ["Hi, I'm Emre!"],
-  ["^Rust^ enjoyer and &bug& architect"],
-  ["I write code that compiles *eventually*"]
+  ["I ^write^ -> %commit% -> &push...&"],
+  ["Code that compiles *eventually*"]
 ];
 
 
@@ -51,40 +57,15 @@ const technologies = [
     icon: rust,
     id: "rust",
   },
-  {
-    name: "docker",
-    icon: docker,
-    id: "docker",
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-    id: "js",
-  },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  //   id: "js",
+  // },
   {
     name: "Python",
     icon: python,
     id: "py",
-  },
-  {
-    name: "FastAPI",
-    icon: fastapi,
-    id: "fastapi",
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-    id: "react",
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-    id: "tailcss",
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-    id: "node",
   },
   {
     name: "C",
@@ -92,30 +73,90 @@ const technologies = [
     id: "c",
   },
   {
-    name: "CPP",
-    icon: cpp,
-    id: "cplusplus",
+    name: "Next.js",
+    icon: nextjs,
+    id: "nextjs",
   },
   {
-    name: "git",
+    name: "Tailwind CSS",
+    icon: tailwind,
+    id: "tailcss",
+  },
+  {
+    name: "AWS",
+    icon: aws,
+    id: "aws",
+  },
+  {
+    name: "Vercel",
+    icon: vercel,
+    id: "vercel",
+  },
+  {
+    name: "Supabase",
+    icon: supabase,
+    id: "supabase",
+  },
+  {
+    name: "Railway",
+    icon: railway,
+    id: "railway",
+  },
+  {
+    name: "Terraform",
+    icon: terraform,
+    id: "terraform",
+  },
+  {
+    name: "Docker",
+    icon: docker,
+    id: "docker",
+  },
+
+  {
+    name: "FastAPI",
+    icon: fastapi,
+    id: "fastapi",
+  },
+
+  {
+    name: "Git",
     icon: git,
-    id: "hub",
+    id: "git",
   },
-  {
-    name: "Burpsuite",
-    icon: burp,
-    id: "burpsuite",
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-    id: "html5",
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-    id: "css3",
-  },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  //   id: "react",
+  // },
+
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  //   id: "node",
+  // },
+
+  // {
+  //   name: "CPP",
+  //   icon: cpp,
+  //   id: "cplusplus",
+  // },
+
+  // {
+  //   name: "Burpsuite",
+  //   icon: burp,
+  //   id: "burpsuite",
+  // },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  //   id: "html5",
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  //   id: "css3",
+  // },
 ];
 
 const experiences = [
@@ -191,27 +232,27 @@ const projects = [
     image: event_scraper,
     link: "https://github.com/emrebengue/Event_Scraper",
   },
-  {
-    name: "System Monitoring",
-    description:
-      "Encrypted System Monitor is a comprehensive tool designed to track and log CPU and memory usage in real-time, featuring an integrated web server for secure data access and visualization. The project utilizes the Poco library for efficient and robust implementation.",
-    tags: [
-      {
-        name: "C++",
-        color: "text-fuchsia-400",
-      },
-      {
-        name: "Bash",
-        color: "text-green-600",
-      },
-      {
-        name: "Makefile",
-        color: "text-orange-400",
-      }
-    ],
-    image: monitor,
-    link: "https://github.com/emrebengue/System-Monitoring",
-  },
+  // {
+  //   name: "System Monitoring",
+  //   description:
+  //     "Encrypted System Monitor is a comprehensive tool designed to track and log CPU and memory usage in real-time, featuring an integrated web server for secure data access and visualization. The project utilizes the Poco library for efficient and robust implementation.",
+  //   tags: [
+  //     {
+  //       name: "C++",
+  //       color: "text-fuchsia-400",
+  //     },
+  //     {
+  //       name: "Bash",
+  //       color: "text-green-600",
+  //     },
+  //     {
+  //       name: "Makefile",
+  //       color: "text-orange-400",
+  //     }
+  //   ],
+  //   image: monitor,
+  //   link: "https://github.com/emrebengue/System-Monitoring",
+  // },
  ];
 
 export { technologies, experiences, heroText, projects };
