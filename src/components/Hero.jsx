@@ -11,8 +11,10 @@ const Hero = () => {
   const orange = "text-amber-600";
   const italic = "italic";
   const green = "text-green-700"
+  const red  = "text-red-600";
+  const light_blue = "text-blue-600";
   const regularFontSize  = "lg:text-5xl";
-  const medFontSize = "md:text-3xl";
+  // const medFontSize = "md:text-3xl";
   const smallFontSize = "sm:text-xl";
 
   return (
@@ -24,7 +26,9 @@ const Hero = () => {
         heroText.map((line, index) => {
           let jk = false;
           let type_green = false;
-          let type_orange = false;
+          // let type_orange = false;
+          let type_red = false;
+          let type_light_blue = false;
           let lastline = index === heroText.length-1;
           let fontSize = regularFontSize;
           return (
@@ -43,7 +47,11 @@ const Hero = () => {
                     return null;
                   }
                   else if (char === "^"){
-                    type_orange = !type_orange;
+                    type_red = !type_red;
+                    return null;
+                  }
+                  else if (char == "%"){
+                    type_light_blue = !type_light_blue;
                     return null;
                   }
                   if (lastline) {
@@ -56,8 +64,10 @@ const Hero = () => {
                       ? italic
                       : type_green
                       ? green
-                      : type_orange
-                      ? orange
+                      : type_light_blue
+                      ? light_blue
+                      : type_red
+                      ? red
                       : "";
 
                   return (
