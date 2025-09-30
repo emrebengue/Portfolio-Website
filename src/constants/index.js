@@ -47,9 +47,8 @@ export const navLinks = [
 const heroText = [
   ["Hi, I'm Emre!"],
   ["I ^write^ -> %commit% -> &push...&"],
-  ["Code that compiles *eventually*"]
+  ["Code that compiles *eventually*"],
 ];
-
 
 const technologies = [
   {
@@ -161,27 +160,27 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Project Support / Junior Engineer",
+    title: "Software Developer",
     company_name: "Department of National Defence Canada",
     icon: goc,
     iconBg: "#383E56",
     date: "September 2023 - August 2024",
     points: [
-      "Led the migration of a map initially created in Microsoft Visio to Qualiware, leveraging the DNDAF Framework to enhance eﬃciency and accuracy.",
-      "Worked on developing a survey website using JavaScript, designed to retrieve data from multiple Excel spreadsheets; implemented features for storing respondent data in an SQLite database.",
+      "Led the migration of mapping systems from Microsoft Visio to Qualiware using DNDAF Framework standards, improving data accuracy and operational efficiency.",
+      "Built a survey application with JavaScript frontend and database backend, integrating data from multiple Excel sources and storing respondent data.",
     ],
   },
   {
-    title: "Enterprise Architecture",
+    title: "Business Analyst",
     company_name: "Statistics Canada",
     icon: goc,
     iconBg: "#383E56",
-    date: "September 2022 - April 2023",
+    date: "May 2022 - April 2023",
     points: [
-      "Utilized Sparx Enterprise Architect to create various intricate models, diagrams, and reports, eﬀectively conveying architectural principles and facilitating informed decision-making processes.",
-      "Performed regular maintenance tasks on Sparx Enterprise Architect software, assuming an administrative role to manage user accounts, both past and present. Ensured smooth operation and user management for optimal utilization of the software platform.",
-      "Streamlined product analysis process by designing a comprehensive PowerBI report and creating a PowerApps application. Facilitated detailed drill-down view for enhanced examination of data on Excel sheets.",
-      "Attended daily team meetings and weekly divisional meetings to give updates on my work.",
+      "Developed business intelligence solutions using PowerBI and PowerApps to streamline product analysis workflows.",
+      "Managed Sparx Enterprise Architect administration including user account management and system maintenance for business operations.",
+      "Created interactive dashboards with drill-down capabilities for detailed data examination across multiple Excel data sources.",
+      "Designed business process models and UML diagrams using Sparx Enterprise Architect.",
     ],
   },
 ];
@@ -191,7 +190,8 @@ const projects = [
     name: "Portfolio Website",
     description:
       "Website created using React JS, Tailwind CSS, and Vite. It is a personal portfolio website that showcases my skills and projects.",
-    tags: [{
+    tags: [
+      {
         name: "React JS",
         color: "text-rose-600",
       },
@@ -202,7 +202,7 @@ const projects = [
       {
         name: "Vite",
         color: "text-green-100",
-      }
+      },
     ],
     image: website,
     link: "https://github.com/emrebengue/Portfolio-Website",
@@ -226,8 +226,8 @@ const projects = [
       },
       {
         name: "Selenium",
-        color: "text-sky-600"
-      }
+        color: "text-sky-600",
+      },
     ],
     image: event_scraper,
     link: "https://github.com/emrebengue/Event_Scraper",
@@ -253,6 +253,6 @@ const projects = [
   //   image: monitor,
   //   link: "https://github.com/emrebengue/System-Monitoring",
   // },
- ];
+];
 
 export { technologies, experiences, heroText, projects };
