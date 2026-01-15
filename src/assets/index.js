@@ -10,6 +10,7 @@ import close from "./close.svg";
 
 //EXPERIENCES
 import goc from "./gc.png";
+import pmi from "./pmi.png";
 
 //TECH
 // import css from "./tech/css.png";
@@ -25,23 +26,22 @@ import python from "./tech/python.png";
 // import cpp from "./tech/cpp.png";
 // import burp from "./tech/burpsuite.png";
 import docker from "./tech/docker.png";
-import c from "./tech/c.png"
-import rust from "./tech/rust.png"
-import fastapi from "./tech/fastapi.png"
-import nextjs from "./tech/nextjs.png"
-import aws from "./tech/aws.png"
-import terraform from "./tech/terraform.png"
-import vercel from "./tech/vercel.png"
-import railway from "./tech/railway.png"
-import supabase from "./tech/supabase.png"
-
+import c from "./tech/c.png";
+import rust from "./tech/rust.png";
+import fastapi from "./tech/fastapi.png";
+import nextjs from "./tech/nextjs.png";
+import aws from "./tech/aws.png";
+import terraform from "./tech/terraform.png";
+import vercel from "./tech/vercel.png";
+import railway from "./tech/railway.png";
+import supabase from "./tech/supabase.png";
 
 //PROJECTS
-import website from "./website.png"
+import website from "./website.png";
 // import chat from "./chat_screenshot.png"
 // import binary_tree from "./binary-tree.png"
 // import monitor from "./system-monitor.png"
-import event_scraper from "./event_scraper.png"
+import event_scraper from "./event_scraper.png";
 
 export {
   docker,
@@ -73,4 +73,5 @@ export {
   vercel,
   railway,
   supabase,
+  pmi,
 };

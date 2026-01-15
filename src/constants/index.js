@@ -23,6 +23,7 @@ import {
   vercel,
   railway,
   supabase,
+  pmi,
 } from "../assets";
 
 export const navLinks = [
@@ -159,6 +160,14 @@ const technologies = [
 ];
 
 const experiences = [
+  {
+    title: "Salesforce Developer",
+    company_name: "Rothmans, Benson & Hedges",
+    icon: pmi,
+    iconBg: "#FFFFFF",
+    date: "December 2025 - Present",
+    points: ["Frontend developement & Data analysis"],
+  },
   {
     title: "Software Developer",
     company_name: "Department of National Defence Canada",
