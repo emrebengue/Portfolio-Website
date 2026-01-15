@@ -164,7 +164,7 @@ const experiences = [
     title: "Salesforce Developer",
     company_name: "Rothmans, Benson & Hedges",
     icon: pmi,
-    iconBg: "#FFFFFF",
+    iconBg: "#000000",
     date: "December 2025 - Present",
     points: ["Frontend developement & Data analysis"],
   },
